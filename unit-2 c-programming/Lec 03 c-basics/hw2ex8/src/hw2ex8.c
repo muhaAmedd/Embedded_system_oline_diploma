@@ -25,7 +25,11 @@ int main(void) {
 		printf("%.2f * %.2f = %.2f",a,b,a*b);
 		break;
 	case'/':
-		printf("%.2f / %.2f = %.2f",a,b,a/b);
+		if(!b)
+			printf("Error! can't divide by zero");
+		else
+
+			printf("%.2f / %.2f = %.2f",a,b,a/b);
 		break;
 	default:
 		printf("Error, operator is not correct.");

@@ -1,6 +1,0 @@
-09:27:52 **** Incremental Build of configuration Debug for project ex2 ****
-Info: Internal Builder is used for build
-gcc -o ex2.exe "src\\ex2.o" 
-
-09:27:52 Build Finished. 0 errors, 0 warnings. (took 83ms)
-

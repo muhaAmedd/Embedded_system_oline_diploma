@@ -1,0 +1,19 @@
+18:31:59 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+18:32:06 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+..\src\ex4.c: In function 'main':
+..\src\ex4.c:22:25: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+   22 |                 scanf("%f",info[i].mark);
+      |                        ~^  ~~~~~~~~~~~~
+      |                         |         |
+      |                         float *   double
+gcc -o ex4.exe "src\\ex4.o" 
+18:32:34 **** Incremental Build of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex4.o" "..\\src\\ex4.c" 
+gcc -o ex4.exe "src\\ex4.o" 
+Info: Nothing to build for ex4

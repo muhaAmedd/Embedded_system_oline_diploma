@@ -1,0 +1,2 @@
+size of union = 32 byte
+size of struct =32+4+4=40 byte

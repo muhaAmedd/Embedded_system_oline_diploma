@@ -1,0 +1,124 @@
+04:37:48 **** Rebuild of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+04:37:53 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c:4:13: error: expected identifier or '(' before '=' token
+    4 | const float =3.14159265359;
+      |             ^
+04:38:21 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c:4:12: error: expected identifier or '(' before '=' token
+    4 | const float= 3.14159265359;
+      |            ^
+04:38:36 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c:4:13: error: expected identifier or '(' before '=' token
+    4 | const double= 3.14159265359;
+      |             ^
+04:39:05 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c:4:10: error: expected identifier or '(' before '=' token
+    4 | const int=3;
+      |          ^
+04:40:13 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+04:42:40 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c:6:23: warning: 'calc_area' defined but not used [-Wunused-function]
+    6 | #define area(a) float calc_area(float a){return pi*a*a;}
+      |                       ^~~~~~~~~
+..\src\ex5.c:14:1: note: in expansion of macro 'area'
+   14 | area(r);
+      | ^~~~
+gcc -o ex5.exe "src\\ex5.o" 
+Info: Nothing to build for ex5
+04:43:56 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c:6:23: warning: 'calc_area' defined but not used [-Wunused-function]
+    6 | #define area(a) float calc_area(float a){printf("Area = ");return pi*a*a;}
+      |                       ^~~~~~~~~
+..\src\ex5.c:14:1: note: in expansion of macro 'area'
+   14 | area(r);
+      | ^~~~
+gcc -o ex5.exe "src\\ex5.o" 
+04:44:41 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c:6:23: warning: 'calc_area' defined but not used [-Wunused-function]
+    6 | #define area(a) float calc_area(void){printf("Area = ");return pi*a*a;}
+      |                       ^~~~~~~~~
+..\src\ex5.c:14:1: note: in expansion of macro 'area'
+   14 | area(r);
+      | ^~~~
+gcc -o ex5.exe "src\\ex5.o" 
+04:47:36 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c: In function 'main':
+..\src\ex5.c:6:17: error: expected expression before 'float'
+    6 | #define area(a) float calc_area(a){return pi*a*a;}
+      |                 ^~~~~
+..\src\ex5.c:14:5: note: in expansion of macro 'area'
+   14 | ans=area(r);
+      |     ^~~~
+04:48:07 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c: In function 'main':
+..\src\ex5.c:6:17: error: expected expression before 'float'
+    6 | #define area(a) float calc_area(float a){return pi*a*a;}
+      |                 ^~~~~
+..\src\ex5.c:14:5: note: in expansion of macro 'area'
+   14 | ans=area(r);
+      |     ^~~~
+04:48:09 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c: In function 'main':
+..\src\ex5.c:6:17: error: expected expression before 'float'
+    6 | #define area(a) float calc_area(float a){return pi*a*a;}
+      |                 ^~~~~
+..\src\ex5.c:14:5: note: in expansion of macro 'area'
+   14 | ans=area(r);
+      |     ^~~~
+04:48:29 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c: In function 'main':
+..\src\ex5.c:6:24: error: expected ')' before 'calc_area'
+    6 | #define area(a) (float calc_area(float a){return pi*a*a;})
+      |                 ~      ^~~~~~~~~
+..\src\ex5.c:14:5: note: in expansion of macro 'area'
+   14 | ans=area(r);
+      |     ^~~~
+..\src\ex5.c:14:12: error: expected expression before ';' token
+   14 | ans=area(r);
+      |            ^
+04:48:49 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+..\src\ex5.c: In function 'main':
+..\src\ex5.c:6:17: error: expected expression before 'float'
+    6 | #define area(a) float calc_area(float a){return pi*a*a;}
+      |                 ^~~~~
+..\src\ex5.c:14:5: note: in expansion of macro 'area'
+   14 | ans=area(r);
+      |     ^~~~
+04:50:57 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 
+04:51:14 **** Incremental Build of configuration Debug for project ex5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ex5.o" "..\\src\\ex5.c" 
+gcc -o ex5.exe "src\\ex5.o" 

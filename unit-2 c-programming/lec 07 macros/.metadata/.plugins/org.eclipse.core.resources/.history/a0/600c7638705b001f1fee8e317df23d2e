@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+const float =3.14159265359;
+
+int main(void) {
+
+
+
+
+	return 0;
+}
